@@ -8,10 +8,10 @@
 
 def main():
 
-    print("If a rectangle has the dimensions: 5cm x 3cm")
-    print("Area is {}cm².".format(3 * 5))
-    print("Perimeter is {}cm.".format(2 * (3 + 5)))
-    
+    length = int(input("Enter length of the rectangle in mm: "))
+    width = int(input("Enter width of the rectangle in mm: "))
+    print("Area is {0} mm².".format(length * width))
+    print("Perimeter is {} mm.".format(2 * (length + width)))
     print("\nDone.")
 
 
